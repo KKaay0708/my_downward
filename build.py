@@ -6,7 +6,7 @@ import os
 import subprocess
 import sys
 
-import build_configs
+import build_config
 
 CONFIGS = {config: params for config, params in build_configs.__dict__.items()
            if not config.startswith("_")}
